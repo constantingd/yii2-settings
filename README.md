@@ -30,7 +30,7 @@ to the require section of your `composer.json` file.
 Subsequently, run
 
 ```php
-./yii migrate/up --migrationPath=@vendor/pheme/yii2-settings/migrations
+./yii migrate/up --migrationPath=@vendor/constantingd/yii2-settings/migrations
 ```
 
 in order to create the settings table in your database.
@@ -48,7 +48,7 @@ Add this to your main configuration's modules array
 ```php
 'modules' => [
     'settings' => [
-        'class' => 'pheme\settings\Module',
+        'class' => 'constantingd\settings\Module',
         'sourceLanguage' => 'en'
     ],
     ...
@@ -60,7 +60,7 @@ Add this to your main configuration's components array
 ```php
 'components' => [
     'settings' => [
-        'class' => 'pheme\settings\components\Settings'
+        'class' => 'constantingd\settings\components\Settings'
     ],
     ...
 ]
@@ -140,7 +140,7 @@ function actions(){
    return [
    		//....
             'site-settings' => [
-                'class' => 'pheme\settings\SettingsAction',
+                'class' => 'constantingd\settings\SettingsAction',
                 'modelClass' => 'app\models\Site',
                 //'scenario' => 'site',	// Change if you want to re-use the model for multiple setting form.
                 //'section' => 'site', // By default use modelClass formname value 
