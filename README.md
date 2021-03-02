@@ -16,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist pheme/yii2-settings "*"
+php composer.phar require --prefer-dist constantingd/yii2-settings "*"
 ```
 
 or add
 
 ```
-"pheme/yii2-settings": "*"
+"constantingd/yii2-settings": "*"
 ```
 
 to the require section of your `composer.json` file.
