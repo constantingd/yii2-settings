@@ -1,5 +1,5 @@
 {
-    "name": "pheme/yii2-settings",
+    "name": "constantingd/yii2-settings",
     "description": "Yii2 Database settings",
     "type": "yii2-extension",
     "keywords": [
@@ -23,13 +23,17 @@
     },
     "autoload": {
         "psr-4": {
-            "pheme\\settings\\": ""
+            "constantingd\\settings\\": ""
         }
     },
     "repositories": [
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/phemellc/yii2-settings.git"
         }
     ]
 }
